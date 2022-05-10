@@ -1,0 +1,419 @@
+/*My Custom CSS*/
+.navbar-light{
+    width:80px;
+    padding: 1px;
+  
+}
+.navbar-nav{
+   
+    
+}
+
+
+
+.navbar button{
+    width:10px;
+}
+.nav-link {
+    color: antiquewhite;
+    background-color: darkgreen;
+    width:100%;
+    content:100%;
+    
+}
+.navbar {
+    100%;
+    background-color: darkgreen;
+    
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: 70%;
+}
+body {
+    background-color:#C1D9C4;
+    padding-top: 25px;
+    margin: 0:
+
+}
+
+h1{
+    color: darkgreen;
+    text-align: center;
+    
+    
+}
+h2 {
+    font-family: 'Fredoka One', ;
+    color: darkgreen;
+   
+  
+}
+
+
+
+
+
+h3 {color: darkgreen;}
+  
+
+p {
+    font-family: 'Oswald', sans-serif;
+    
+}
+h5{
+    color: darkgreen;
+}
+
+
+.p-2 {
+    width: 600px;
+}
+ 
+.clearfix::after,
+.calendar ol::after{
+    content: ".";
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+/*calender styling----------*/
+
+.calendar{
+    border-radius: 60px;
+}
+@media (min-width:992px){
+    .date{
+        font-size: 3.5rem;
+    }
+}
+.calendar ol li{
+    float: left;
+    width: 14.28571%
+}
+.calendar .day-names{
+    border-bottom: 1px solid #eee;
+    
+}
+.calendar .day-names li{
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+.calendar .days li{
+    border-bottom: 1px solid #eee;
+    min-height: 8rem;
+}
+
+.calendar .days li .date{
+    margin: 0.5rem 0;
+}
+
+.calendar .days li .event{
+    font-size: 0.75rem;
+    padding: 0.4rem;
+    color:white;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-radius: 4rem;
+    margin-bottom: 1px;
+}
+
+.calendar .days li .event.span-2{
+    width:200%;
+}
+
+.calendar .days li .event.begin{
+    border-radius: 1rem 0 0 1rem;
+}
+.calendar .days li event.end{
+    border-radius: 0 1rem 1rem 0;
+}
+.calendar .days li .event.clear{
+    background: none;
+}
+.calendar .days li:nth-child(n+29)
+{border-bottom: none;}
+
+.calendar .days li.outside .date{
+    color: #ddd;
+}
+
+.demo:hover .event bg-success {
+    animation-name: date;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+.date{
+    border-top: 50px solid #ccc; 
+    height:80px;
+    font-size: 16px;
+    
+}
+
+
+
+@media (max-width:575px) {
+    .display-4 {
+        font-size: 1.5rem;
+    }
+    .day h5 {
+        background-color: #f8f9fa;
+        padding: 3px 5px 5px;
+        margin: -8px -8px 8px -8px;
+    }
+    .date {
+        padding-left: 4px;
+    }
+}
+
+@media (min-width: 576px) {
+    .day {
+        height: 14.2857vw;
+    }
+}
+
+
+
+.container2{
+    width: 50%;
+    margin: auto;
+    
+}
+
+
+
+
+.p card-text{
+    color: darkgreen;
+}
+
+
+
+.card-img-top{
+    width: 100%;
+    height: 15vw;
+    object-fit: contain;
+}
+
+
+
+.btn{
+    background-color: darkgreen;
+    border-color: darkgreen;
+    color: antiquewhite;
+   
+}
+
+.card{
+    text-align: center;
+    border-color: #44A66E;
+    background-color:
+    
+}
+.card, a:hover {
+  text-decoration: none;
+}
+
+.card:hover {
+  opacity: 0.8;
+}
+
+
+
+.container4 {
+  width:640px;
+  height:360px;
+  margin: auto;
+  
+    
+}
+
+.card2{
+    padding: inherit;
+    
+
+}
+
+
+.sm-list{
+    background-color: darkgreen;
+    padding: 10px;
+    
+      
+}
+
+.sm-link{
+    color: white;
+    text-emphasis-color:darkgreen;
+}
+
+
+
+
+
+
+.d-flex{
+    background-color: darkgreen;
+    width: auto;
+    padding-left: 100px;
+    margin: auto;
+}
+
+.d-flex h3{
+    color:white;
+}
+
+
+.box {
+  display: flex;
+  align-items: stretch;
+  margin: auto;
+  padding-left: 410px
+}
+  
+
+
+.modal-footer{
+    padding: inherit;
+    text-align: center; 
+}
+  
+
+
+
+
+
+
+.form-select{
+    margin-left: 550px;
+    
+
+    
+}
+
+.container{
+    margin: auto;
+    
+}
+
+footer{
+    margin: auto;
+    
+}
+
+
+
+
+.jumbotron{
+    background-color:#C1D9C4;
+   
+    
+}
+ 
+/*.col-md-4{
+    padding: 100px;
+    margin: auto;
+}*/
+
+
+.container-flex{
+    margin: auto;
+    align-content: center;
+}
+
+.container-fluid1{
+      width: 935px;
+      margin: auto;
+      border: 3px solid #73AD21;
+     
+
+}
+
+.carousel-inner{
+    height: 450px
+    
+}
+
+
+.container-fluid{
+    margin: auto;
+    align-content: center;
+    
+}
+
+
+    
+.container-fluid2{
+    margin: auto;
+    background-color: #7CC4A4;
+}
+
+
+
+
+
+.col-md-4{
+    width:100%;
+    float:left;
+    margin:0;
+}
+
+
+
+.container3{
+    margin: auto;
+}
+
+
+
+.container3{
+    width: 15%;
+    margin: auto;
+    
+}
+    
+.container1{
+    margin: auto;
+}
+
+.container1 img{
+    width:250px;
+    
+}
+
+
+.container-flex5{
+    margin: auto;
+    padding-left: 100px;
+    align-content: center;
+}
+
+
+
+
+
+
+@media all and (max-width: 767px) {
+        .flexclassname div {
+            flex-direction: column; 
+        }
+        .fleximage1 div {
+            display: inline-block;
+            width: 100%;
+        }
+        .fleximage2 div {
+            display: inline-block;
+            width: 100%;
+            order: 2;
+        }
+    
+    
+@media (min-width: 768px) and (max-width: 1199.98px)
+    
+    
+  
